@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="88dp"
+    android:minHeight="88dp">
+
+    <TextView
+        android:id="@+id/miwokText"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="bottom"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        app:layout_constraintLeft_toRightOf="@id/miwokImage"
+        app:layout_constraintBottom_toTopOf="@id/englishText"
+        android:textStyle="bold"
+        app:layout_constraintVertical_weight="1"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/englishText"
+        android:gravity="top"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:paddingLeft="16dp"
+        android:textSize="18sp"
+        app:layout_constraintVertical_weight="1"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        app:layout_constraintTop_toBottomOf="@id/miwokText"
+        app:layout_constraintLeft_toRightOf="@id/miwokImage"/>
+
+    <ImageView
+        android:id="@+id/audioPlay"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:src="@android:drawable/ic_media_play"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/miwokImage"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:background="#fff7DA"
+        android:insetBottom="0dp"
+        app:layout_constraintRight_toLeftOf="@+id/miwokText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

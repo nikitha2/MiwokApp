@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Miwok</string>
+    <string name="numbers">Numbers</string>
+    <string name="famMem">Family Members</string>
+    <string name="phrases">Phrases</string>
+    <string name="colors">Colors</string>
+    <string name="Eng0">Zero</string>
+    <string name="Eng1">One</string>
+    <string name="Eng2">Two</string>
+    <string name="Eng3">Three</string>
+    <string name="Eng4">Four</string>
+    <string name="Eng5">Five</string>
+    <string name="Eng6">Six</string>
+    <string name="Eng7">Seven</string>
+    <string name="Eng8">Eight</string>
+    <string name="Eng9">Nine</string>
+    <string name="Eng10">Ten</string>
+
+
+    <string name="Miwok0">zero</string>
+    <string name="Miwok1">Lutti</string>
+    <string name="Miwok2">otiiko</string>
+    <string name="Miwok3">tolookosu</string>
+    <string name="Miwok4">oyyisa</string>
+    <string name="Miwok5">massokka</string>
+    <string name="Miwok6">temmokka</string>
+    <string name="Miwok7">kenekaku</string>
+    <string name="Miwok8">kawinata</string>
+    <string name="Miwok9">woe</string>
+    <string name="Miwok10">naaacha</string>
+
+    <string name="EngFather">father</string>
+    <string name="EngMother">mother</string>
+    <string name="EngSon">son</string>
+    <string name="EngDaughter">daughter</string>
+    <string name="EngOldBro">older brother</string>
+    <string name="EngYoungBro">younger brother</string>
+    <string name="EngOldSis">older sister</string>
+    <string name="EngYoungSis">younger sister</string>
+    <string name="EngGrandma">grandmother</string>
+    <string name="EngGrandpa">grandfather</string>
+    <string name="MiwokFather">әpә</string>
+    <string name="MiwokMother">әṭa</string>
+    <string name="MiwokSon">angsi</string>
+    <string name="MiwokDaughter">tune</string>
+    <string name="MiwokOldBro">taachi</string>
+    <string name="MiwokYoungBro">chalitti</string>
+    <string name="MiwokOldSis">teṭe</string>
+    <string name="MiwokYoungSis">kolliti</string>
+    <string name="MiwokGrandma">ama</string>
+    <string name="MiwokGrandpa">paapa</string>
+
+    <string name="EngRed">red</string>
+    <string name="Enggreen">green</string>
+    <string name="Engbrown">brown</string>
+    <string name="Enggray">gray</string>
+    <string name="Engblack">black</string>
+    <string name="Engwhite">white</string>
+    <string name="EngdustyYellow">dusty yellow</string>
+    <string name="EngmustardYellow">mustard yellow</string>
+    <string name="MiwokRed">weṭeṭṭi</string>
+    <string name="Miwokgreen">chokokki</string>
+    <string name="Miwokbrown">ṭakaakki</string>
+    <string name="Miwokgray">ṭopoppi</string>
+    <string name="Miwokblack">kululli</string>
+    <string name="Miwokwhite">kelelli</string>
+    <string name="MiwokdustyYellow">ṭopiisә</string>
+    <string name="MiwokmustardYellow">chiwiiṭә</string>
+
+    <string name="Engphrase1">Where are you going?</string>
+    <string name="Engphrase2">What is your name?</string>
+    <string name="Engphrase3">My name is...</string>
+    <string name="Engphrase4">How are you feeling?</string>
+    <string name="Engphrase5">I’m feeling good.</string>
+    <string name="Engphrase6">Are you coming?</string>
+    <string name="Engphrase7">Yes, I’m coming.</string>
+    <string name="Engphrase8">I’m coming.</string>
+    <string name="Engphrase9">Let’s go.</string>
+    <string name="Engphrase10">Come here.</string>
+    <string name="MiwokPharase1">minto wuksus</string>
+    <string name="MiwokPharase2">tinnә oyaase nә</string>
+    <string name="MiwokPharase3">oyaaset...</string>
+    <string name="MiwokPharase4">michәksәs?</string>
+    <string name="MiwokPharase5">kuchi achit</string>
+    <string name="MiwokPharase6">әәnәs aa?</string>
+    <string name="MiwokPharase7">hәә әәnәm</string>
+    <string name="MiwokPharase8">әәnәm</string>
+    <string name="MiwokPharase9">yoowutis</string>
+    <string name="MiwokPharase10">әnni nem</string>
+
+
+
+
+
+</resources>

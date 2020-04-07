@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        tools:context=".MainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/numbers"
+            android:background="@color/category_numbers"
+            android:foreground="?attr/selectableItemBackground"
+            style="@style/styleMainActivity"
+            android:text="@string/numbers"
+            app:layout_constraintBottom_toBottomOf="@id/famMem"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            />
+            <!--android:onClick="onClick"-->
+
+        <TextView
+            android:id="@+id/famMem"
+            style="@style/styleMainActivity"
+            android:background="@color/category_family"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="@string/famMem"
+            app:layout_constraintBottom_toTopOf="@id/colors"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/numbers"  />
+           <!-- android:onClick="famMem"-->
+
+
+        <TextView
+            android:id="@+id/colors"
+            android:text="@string/colors"
+            app:layout_constraintTop_toBottomOf="@id/famMem"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/phrases"
+            style="@style/styleMainActivity"
+            android:background="@color/category_colors"
+            android:foreground="?attr/selectableItemBackground" />
+            <!--android:onClick="colors"-->
+
+        <TextView
+            android:id="@+id/phrases"
+            style="@style/styleMainActivity"
+            android:background="@color/category_phrases"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="@string/phrases"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/colors"/>
+            <!--android:onClick="phrases"-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</android.widget.ScrollView>
